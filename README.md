@@ -18,6 +18,6 @@ You can change the port where the proxy is listen to. The port must be greater t
 1) Start the http proxy
 2) Configure a web browser to use it (you can find this option inside the settings of a web browser)
 3) You do a request and it is written inside the file handlerequest.conf and the software waits.
-4) If you want to modify the request you can open handlerequest.conf file, make the necessary changes, and restart the proxy by pressing a button in the terminal where you started the proxy. Automatically, the new request is submit to the remote web server.
+4) If you want to modify the request you can open handlerequest.conf file, make the necessary changes, and restart the proxy by pressing a button in the terminal where you started the proxy. Automatically, the new request is submitted to the remote web server.
 
 
