@@ -1,7 +1,8 @@
-#****************  HTTP Proxy  ************************************
+#****************  HTTP Proxy  *************************************
 #*                                                                 *
 #*              Version: 1.0                                       *
 #*              Author: Alessandro Peretti                         *
+#*              E-mail: alessandro.peretti[at]unicam.it            *
 #*                                                                 *
 #*                                                                 *
 #*                                                                 *
@@ -21,9 +22,9 @@
 #                                                                  *
 #*******************************************************************
 
-import os,sys,thread,socket
+import os,sys,socket
 
-
+# different colours for output
 class colors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
